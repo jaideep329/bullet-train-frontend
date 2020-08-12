@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "bullet-train-cn",
+    "public": "build/",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/static/index.handlebars"
+      }
+    ]
+  }
+}
